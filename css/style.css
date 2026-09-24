@@ -12,8 +12,12 @@ body {
 header {
       padding: 20px;
       text-align: center;
+      background-color: #92d3f2;
 }
 
+main {
+     background-color: rgb(233, 239, 148);
+}
 .intro {
     padding: 20px;
 }
@@ -25,6 +29,8 @@ header {
 .cards-container article {
     width: 100%;
     margin-bottom: 16px;
+    padding: 16px;
+    border: 1px solid #ccc;
 }
 
 @media (min-width: 768px) {
